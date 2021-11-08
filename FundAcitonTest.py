@@ -7,9 +7,9 @@ import numpy as np
 # from openpyxl.utils.dataframe import dataframe_to_rows
 # from openpyxl import Workbook
 
-code = '012428'
-portion = 3994.12
-start_cach = 3954.18
+code = '005609'
+portion = 399.34
+start_cach = 177.84
 start = '2021-07-01'
 current_time = time.strftime('%Y-%m-%d', time.localtime())
 
@@ -113,7 +113,7 @@ for idx, i in enumerate(value):
         buy_factor = buy_factor/1.25
         sell_factor = sell_factor/1.25
     float_value = float(i)
-
+    
     if current_value > float_value:
         reaction = -(current_value/float_value-1)*sell_factor*portion
         factor = sell_factor
