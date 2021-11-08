@@ -1,6 +1,6 @@
 
 import json
-path = './store.json'
+path = 'store.json'
 
 
 def resolveJson(path):
