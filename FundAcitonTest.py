@@ -6,6 +6,7 @@ import numpy as np
 # from openpyxl.utils.dataframe import dataframe_to_rows
 # from openpyxl import Workbook
 
+
 def resolve():
     file = open('./store.json', "rb")
     fileJson = json.load(file)[1]
@@ -136,6 +137,3 @@ for idx, i in enumerate(value):
         factor = buy_factor
         print('相较于{time}的操作:买入金额'.format(
             time=[date1, date2][idx].split(' ')[0]),  reaction, "系数:", factor)
-    # print('相较于{time}的操作:'.format(
-    #     time=[date1, date2][idx].split(' ')[0]),  reaction, "系数:", factor)
-# python循环的index
