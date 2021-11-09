@@ -26,5 +26,45 @@
     "code": "001532",
     "portion": 1012.41,
     "start_cach": 4022.30
+  },
+  {
+    "index": 4,
+    "name": "富国军工主题混合A",
+    "code": "004070",
+    "portion": 1638.30,
+    "start_cach": 1875.53
+  },
+  {
+    "index": 5,
+    "name": "富国军工主题混合A",
+    "code": "320007",
+    "portion": 500.35,
+    "start_cach": 1099.27
+  },{
+    "index": 6,
+    "name": "泰信中小盘精选混合",
+    "code": "290011",
+    "portion": 265.09,
+    "start_cach": 1172.23
+  
+  },{
+    "index": 7,
+    "name": " 商信用增强债券A",
+    "code": "001751",
+    "portion": 1229.71,
+    "start_cach": 1722.82
+  
+  },{
+    "index": 8,
+    "name": "欧价值智选混合C",
+    "code": "004235",
+    "portion": 312.03,
+    "start_cach": 1569.07
+  },{
+    "index": 9,
+    "name": "",
+    "code": "012149",
+    "portion": 5.53,
+    "start_cach": 8.54
   }
 ]

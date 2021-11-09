@@ -1,5 +1,3 @@
-
-
 import json
 path = 'store.json'
 
