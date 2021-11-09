@@ -9,7 +9,7 @@ import numpy as np
 
 def resolve():
     file = open('./store.json', "rb")
-    fileJson = json.load(file)[1]
+    fileJson = json.load(file)[2]
     code = fileJson["code"]
     portion = fileJson["portion"]
     start_cach = fileJson["start_cach"]
@@ -61,6 +61,7 @@ def create_data():
 
 data = create_data()
 # print(data)
+index = 0
 for i in range(18, 0, -1):
     if data.loc[data.index[i], 'trend']*data.loc[data.index[i+1], 'trend'] < 0:
         index = i

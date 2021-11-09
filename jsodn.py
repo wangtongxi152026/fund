@@ -1,11 +1,12 @@
 
+
 import json
 path = 'store.json'
 
 
 def resolveJson(path):
     file = open(path, "rb")
-    fileJson = json.load(file)[0]
+    fileJson = json.load(file)[1]
     name = fileJson["name"]
     code = fileJson["code"]
     portion = fileJson["portion"]

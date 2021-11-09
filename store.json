@@ -3,8 +3,8 @@
     "index": 0,
     "name": "招商中证白酒指数(LOF)A",
     "code": "161725",
-    "portion": 2857.77,
-    "start_cach": 3783.69
+    "portion": 2860.77,
+    "start_cach": 3818.121
   },
   {
     "index": 1,
@@ -19,5 +19,12 @@
     "code": "005609",
     "portion": 177.84,
     "start_cach": 399.34
+  },
+  {
+    "index": 3,
+    "name": "富国军工主题混合A",
+    "code": "001532",
+    "portion": 1012.41,
+    "start_cach": 4022.30
   }
 ]
