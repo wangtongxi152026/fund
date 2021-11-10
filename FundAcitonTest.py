@@ -9,7 +9,7 @@ import numpy as np
 
 def resolve():
     file = open('./store.json', "rb")
-    fileJson = json.load(file)[2]
+    fileJson = json.load(file)[0]
     code = fileJson["code"]
     portion = fileJson["portion"]
     start_cach = fileJson["start_cach"]
