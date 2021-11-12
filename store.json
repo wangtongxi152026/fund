@@ -3,29 +3,31 @@
     "index": 0,
     "name": "招商中证白酒指数(LOF)A",
     "code": "161725",
-    "portion": 3023.87,
-    "start_cach": 3965.20
+    "portion": 3204.22,
+    "start_cach": 4122.84
   },
   {
     "index": 1,
     "name": "华夏核心制造混合A",
     "code": "012428",
-    "portion": 4044.73,
-    "start_cach": 3954.18
+    "portion": 3754.18,
+    "start_cach": 3947.90,
+    "action": -366.0327856935145
   },
   {
     "index": 2,
     "name": "富国军工主题混合A",
     "code": "005609",
     "portion": 177.84,
-    "start_cach": 399.34
+    "start_cach": 417.09
   },
   {
     "index": 3,
-    "name": "富国军工主题混合A",
+    "name": "安文体健康混合A",
     "code": "001532",
-    "portion": 1012.41,
-    "start_cach": 4022.30
+    "portion": 974.41,
+    "start_cach": 3932.98,
+    "action": -6
   },
   {
     "index": 4,
@@ -33,5 +35,78 @@
     "code": "002190",
     "portion": 163.25,
     "start_cach": 777.98
+  },
+  {
+    "index": 5,
+    "name": "安成长混合",
+    "code": "320007",
+    "portion": 500.35,
+    "start_cach": 1128.79,
+    "action": -20
+  },
+  {
+    "index": 6,
+    "name": "泰信中小盘精选混合",
+    "code": "290011",
+    "portion": 265.09,
+    "start_cach": 1172.23
+  },
+  {
+    "index": 7,
+    "name": "商信用增强债券A",
+    "code": "001751",
+    "portion": 1229.71,
+    "start_cach": 1733.89,
+    "action": -63
+  },
+  {
+    "index": 8,
+    "name": "欧价值智选混合C",
+    "code": "004235",
+    "portion": 312.03,
+    "start_cach": 1574.60
+  },
+  {
+    "index": 9,
+    "name": "",
+    "code": "012149",
+    "portion": 5.53,
+    "start_cach": 8.54
+  },
+  {
+    "index": 10,
+    "naem": "南方中证全指证券公司ETF联接C",
+    "code": "004070",
+    "portion": 1656.38,
+    "start_cach": 1405.30,
+    "action": 44
+  },
+  {
+    "index": 11,
+    "naem": "商医药健康产业股票",
+    "code": "000960",
+    "portion": 3898.61,
+    "start_cach": 1404.40
+  },
+  {
+    "index": 12,
+    "naem": "中欧医疗健康混合C",
+    "code": "003096",
+    "portion": 611.46,
+    "start_cach": 1918.15
+  },
+  {
+    "index": 13,
+    "naem": "融通人工智能指数(LOF)C",
+    "code": "009239",
+    "portion": 1147.88,
+    "start_cach": 1776.69
+  },
+  {
+    "index": 14,
+    "naem": "金信稳健策略灵活配置混合",
+    "code": "007872",
+    "portion": 139.88,
+    "start_cach": 314.13
   }
 ]

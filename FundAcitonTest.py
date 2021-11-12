@@ -3,13 +3,10 @@ import time
 import json
 import pandas as pd
 import numpy as np
-# from openpyxl.utils.dataframe import dataframe_to_rows
-# from openpyxl import Workbook
-
 
 def resolve():
     file = open('./store.json', "rb")
-    fileJson = json.load(file)[0]
+    fileJson = json.load(file)[5]
     code = fileJson["code"]
     portion = fileJson["portion"]
     start_cach = fileJson["start_cach"]
@@ -23,9 +20,9 @@ def resolve():
 code = resolve()['code']
 portion = resolve()['portion']
 start_cach = resolve()['start_cach']
+
 start = '2021-07-01'
 current_time = time.strftime('%Y-%m-%d', time.localtime())
-
 value = [[] for a in range(2)]
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
@@ -70,7 +67,8 @@ total_latest_4_sum = (data.loc[data.index[0], 0]
                       + data.loc[data.index[1], 0]
                       + data.loc[data.index[2], 0]
                       + data.loc[data.index[3], 0])
-
+print(data.loc[data.index[0], 0])
+print(data)
 res1 = requests.get(
     'http://fundgz.1234567.com.cn/js/{code}.js?'.format(code=code))
 datasplite = json.loads(res1.text[8:-2])
@@ -91,6 +89,7 @@ value[0] = total_value[0]['jjjz']
 date2 = total_value[1]['fbrq'].split(' ')[0]
 value[1] = total_value[1]['jjjz']
 cash = portion*float(value[1])
+print('cash',cash)
 change = (current_value-float(value[0]))/float(value[0])*100
 print('单日情况:', current_time, '估算净值:', current_value, 'Change:', change, '%')
 print('趋势维持天数:', index, '最新5日均值:', latest_ma5, '最新趋势:', lastset_trend)
@@ -128,7 +127,7 @@ for idx, i in enumerate(value):
         sell_factor = sell_factor/1.25
     float_value = float(i)
 
-    if current_value > float_value:
+    if current_value > float_value: 
         reaction = -(current_value/float_value-1)*sell_factor*portion
         factor = sell_factor
         print('相较于{time}的操作:卖出份额'.format(
