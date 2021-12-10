@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import numpy as np
 
-jsonIdx = 0
+jsonIdx = 3
 jsonData = []
 fileJson = {}
 with open('./store.json', "rb") as file:
