@@ -1,1 +1,257 @@
-[{"index": 0, "name": "招商中证白酒指数(LOF)A", "code": "161725", "portion": 2444.16, "start_cach": 3445.53, "gsz": 1.4088, "action": -349.7775700934591, "sell_value": -492.7666407476652}, {"index": 1, "name": "华夏核心制造混合A", "code": "012428", "portion": 3416.63, "start_cach": 3679.71, "gsz": 1.0622, "action": -61.33406084656081, "sell_value": -65.14903943121689}, {"index": 2, "code": "005106", "portion": 768.67, "start_cach": 1676.16, "gsz": 2.1767, "name": "银华农业产业股票发起式A", "action": 9.037234862268607}, {"index": 3, "name": "华安文体健康混合A", "code": "001532", "portion": 1139.74, "start_cach": 4826.8, "gsz": 4.1974, "action": 133.28682646972214}, {"index": 4, "name": "农银新能源主题", "code": "002190", "portion": 179.56, "start_cach": 844.4, "actions": 17, "gsz": 4.684, "action": -0.2684235253918914, "sell_value": -1.2572957929356194}, {"index": 5, "name": "诺安成长混合", "code": "320007", "portion": 452.66, "start_cach": 1016.22, "gsz": 2.1958, "action": -11.18702059496568, "sell_value": -24.564459822425643}, {"index": 6, "name": "泰信中小盘精选混合", "code": "290011", "portion": 195.86, "start_cach": 943.46, "gsz": 4.7494, "action": 2.1569755724934168}, {"index": 7, "name": "华商信用增强债券A", "code": "001751", "portion": 1242.46, "start_cach": 1782.93, "gsz": 1.4378, "action": -12.121560975609768, "sell_value": -17.428380370731723}, {"index": 8, "name": "中欧价值智选混合C", "code": "004235", "portion": 333.29, "start_cach": 1731.24, "gsz": 5.1934, "action": 51.624409015829684}, {"index": 9, "name": "", "code": "012149", "portion": 5.53, "start_cach": 8.54}, {"index": 10, "code": "004070", "portion": 1758.55, "start_cach": 2057.68, "actions": 3, "gsz": 1.168, "name": "南方中证全指证券公司ETF联接C", "action": -29.45771411390761, "sell_value": -34.406610085044086}, {"index": 11, "code": "000960", "portion": 1357.93, "start_cach": 4028.49, "gsz": 2.8938, "name": "招商医药健康产业股票", "action": -1.8775388869699041, "sell_value": -5.433222031113509}, {"index": 12, "code": "003096", "portion": 586.08, "start_cach": 1875.64, "gsz": 3.1873, "name": "中欧医疗健康混合C", "action": 148.51972824961544}, {"index": 13, "code": "009239", "portion": 1218.89, "start_cach": 1907.56, "gsz": 1.5909, "name": "融通人工智能指数(LOF)C", "action": -0.0}, {"index": 14, "code": "007872", "portion": 129.2, "start_cach": 302.22, "gsz": 2.2966, "name": "金信稳健策略灵活配置混合", "action": 31.170506439083855}, {"index": 15, "code": "260108", "portion": 569.71, "start_cach": 1586.07, "gsz": 2.7694, "name": "景顺长城新兴成长混合", "action": -52.801368150055474, "sell_value": -146.22810895476363}, {"index": 16, "code": "004890", "portion": 112.85, "start_cach": 323.95, "gsz": 2.8521, "name": "中邮健康文娱混合", "action": 10.413747432944291}, {"index": 17, "code": "002593", "portion": 429.32, "start_cach": 1347.64, "gsz": 3.1104, "action": 1.4202177237665623, "name": "富国美丽中国混合A"}, {"index": 18, "code": "010213", "portion": 1346.76, "start_cach": 1462.58, "actions": 28.64, "gsz": 1.1009, "name": "中欧互联网先锋混合A", "action": -39.994243421052275, "sell_value": -44.02966258223645}, {"index": 19, "naem": "", "code": "006327", "portion": 3043.47, "start_cach": 3603.77, "actions": 28.64}, {"index": 20, "code": "001576", "portion": 85.85, "start_cach": 301.25, "actions": 28.64, "gsz": 3.4982, "name": "国泰智能装备股票A", "action": -0.39301859799717975, "sell_value": -1.3748576595137343}, {"index": 21, "code": "005224", "portion": 1525.39, "start_cach": 1331.82, "actions": 28.64, "gsz": 0.873, "name": "广发中证基建工程ETF联接C", "action": -0.0}, {"index": 22, "code": "005609", "portion": 507.29, "start_cach": 1253.56, "actions": 28.64, "gsz": 2.4757, "name": "т»їтЏйтєЏтиЦСИ╗жбўТиитљѕA", "action": -4.721650277204451, "sell_value": -11.689389591275058}]
+[
+  {
+    "index": 0,
+    "name": "招商中证白酒指数(LOF)A",
+    "code": "161725",
+    "portion": 2178.21,
+    "start_cach": 3167.99,
+    "gsz": 1.447,
+    "action": 236.01186846385423
+  },
+  {
+    "index": 1,
+    "name": "华夏核心制造混合A",
+    "code": "012428",
+    "portion": 3579.56,
+    "start_cach": 3820.82,
+    "gsz": 1.0661,
+    "action": 25.70188546327511
+  },
+  {
+    "index": 2,
+    "code": "005106",
+    "portion": 829.6,
+    "start_cach": 1886.34,
+    "gsz": 2.2825,
+    "name": "银华农业产业股票发起式A",
+    "action": -15.871052863048677,
+    "sell_value": -36.22567815990861
+  },
+  {
+    "index": 3,
+    "name": "华安文体健康混合A",
+    "code": "001532",
+    "portion": 1197.7,
+    "start_cach": 5072.76,
+    "gsz": 4.224,
+    "action": 112.75378606770532
+  },
+  {
+    "index": 4,
+    "name": "农银新能源主题",
+    "code": "002190",
+    "portion": 207.56,
+    "start_cach": 944.48,
+    "actions": 17,
+    "gsz": 4.5111,
+    "action": 45.53838310314554
+  },
+  {
+    "index": 5,
+    "name": "诺安成长混合",
+    "code": "320007",
+    "portion": 475.67,
+    "start_cach": 1055.04,
+    "gsz": 2.183,
+    "action": 92.86677766834711
+  },
+  {
+    "index": 6,
+    "name": "泰信中小盘精选混合",
+    "code": "290011",
+    "portion": 187.97,
+    "start_cach": 914.1,
+    "gsz": 4.8124,
+    "action": 52.666421555772956
+  },
+  {
+    "index": 7,
+    "name": "华商信用增强债券A",
+    "code": "001751",
+    "portion": 1204.09,
+    "start_cach": 1733.89,
+    "gsz": 1.4278,
+    "action": 81.14527631741119
+  },
+  {
+    "index": 8,
+    "name": "中欧价值智选混合C",
+    "code": "004235",
+    "portion": 343.77,
+    "start_cach": 1797.47,
+    "gsz": 5.2514,
+    "action": -7.462255436341933,
+    "sell_value": -39.18728819840603
+  },
+  {
+    "index": 9,
+    "name": "国投瑞银产业趋势混合C",
+    "code": "012149",
+    "portion": 470.16,
+    "start_cach": 728.09,
+    "gsz": 1.524,
+    "action": 65.99186121259812
+  },
+  {
+    "index": 10,
+    "code": "004070",
+    "portion": 1780.77,
+    "start_cach": 2152.77,
+    "actions": 3,
+    "gsz": 1.2146,
+    "name": "南方中证全指证券公司ETF联接C",
+    "action": -0.0
+  },
+  {
+    "index": 11,
+    "code": "000960",
+    "portion": 1537,
+    "start_cach": 4538.76,
+    "gsz": 2.8553,
+    "name": "招商医药健康产业股票",
+    "action": 846.9357158967523
+  },
+  {
+    "index": 12,
+    "code": "003096",
+    "portion": 765.52,
+    "start_cach": 2471.1,
+    "gsz": 3.0997,
+    "name": "中欧医疗健康混合C",
+    "action": 560.979771001066
+  },
+  {
+    "index": 13,
+    "code": "009239",
+    "portion": 1218.89,
+    "start_cach": 1907.56,
+    "gsz": 1.5909,
+    "name": "融通人工智能指数(LOF)C",
+    "action": -0.0
+  },
+  {
+    "index": 14,
+    "code": "007872",
+    "portion": 129.2,
+    "start_cach": 302.22,
+    "gsz": 2.2966,
+    "name": "金信稳健策略灵活配置混合",
+    "action": 31.170506439083855
+  },
+  {
+    "index": 15,
+    "code": "260108",
+    "portion": 501.71,
+    "start_cach": 1444.71,
+    "gsz": 2.853,
+    "name": "景顺长城新兴成长混合",
+    "action": -55.725582228592216,
+    "sell_value": -158.9850860981736
+  },
+  {
+    "index": 16,
+    "code": "004890",
+    "portion": 145.3,
+    "start_cach": 401.49,
+    "gsz": 2.8134,
+    "name": "中邮健康文娱混合",
+    "action": -13.198574116965979,
+    "sell_value": -37.13286842067209
+  },
+  {
+    "index": 17,
+    "code": "002593",
+    "portion": 374.9,
+    "start_cach": 1189.56,
+    "gsz": 3.1393,
+    "action": 70.54354400821848,
+    "name": "富国美丽中国混合A"
+  },
+  {
+    "index": 18,
+    "code": "010213",
+    "portion": 1346.76,
+    "start_cach": 1500.69,
+    "actions": 28.64,
+    "gsz": 1.1274,
+    "name": "中欧互联网先锋混合A",
+    "action": -79.16430045768634,
+    "sell_value": -89.24983233599558
+  },
+  {
+    "index": 19,
+    "naem": "",
+    "code": "006327",
+    "portion": 3043.47,
+    "start_cach": 3603.77,
+    "actions": 28.64
+  },
+  {
+    "index": 20,
+    "code": "001576",
+    "portion": 81.8,
+    "start_cach": 281.47,
+    "actions": 28.64,
+    "gsz": 3.5151,
+    "name": "国泰智能装备股票A",
+    "action": -8.807585004359169,
+    "sell_value": -30.95954204882291
+  },
+  {
+    "index": 21,
+    "code": "005224",
+    "portion": 1597.5,
+    "start_cach": 1394.94,
+    "actions": 28.64,
+    "gsz": 0.8749,
+    "name": "广发中证基建工程ETF联接C",
+    "action": -161.12843983208998,
+    "sell_value": "-140.971"
+  },
+  {
+    "index": 22,
+    "code": "005609",
+    "portion": 507.29,
+    "start_cach": 1253.56,
+    "actions": 28.64,
+    "gsz": 2.3844,
+    "name": "富国军工主题混合A",
+    "action": 48.70597754730808
+  },
+  {
+    "index": 23,
+    "code": "011855",
+    "portion": 1976.35,
+    "start_cach": 1885.64,
+    "gsz": 0.9532,
+    "name": "银华长荣混合",
+    "action": 9.758300693453291
+  },
+  {
+    "index": 24,
+    "code": "005927",
+    "portion": 662.9,
+    "start_cach": 2368.94,
+    "gsz": 3.4971,
+    "name": "创金合信新能源汽车股票A",
+    "action": 288.5975696255451
+  },
+  {
+    "index": 25,
+    "code": "003625",
+    "portion": 197.61,
+    "start_cach": 500.01,
+    "gsz": 2.4763,
+    "name": "创金合信资源股票发起式C",
+    "action": 61.82814944837025
+  },
+  {
+    "index": 26,
+    "code": "400025",
+    "portion": 186.62,
+    "start_cach": 554.56,
+    "gsz": 2.9531,
+    "name": "东方新兴成长混合",
+    "action": 19.210421775761056
+  }
+]

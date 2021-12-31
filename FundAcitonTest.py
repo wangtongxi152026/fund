@@ -32,6 +32,9 @@ url = 'http://stock.finance.sina.com.cn/fundInfo/api/openapi.php/CaihuiFundInfoS
 info = requests.get(url, headers=headers).json()
 
 
+def  round3(value):
+    return str(round(value, 3) )
+
 def create_data():
     dic = {}
     for i in range(20):
@@ -130,19 +133,23 @@ for idx, i in enumerate(value):
     if current_value > float_value:
         reaction = -(current_value/float_value-1)*sell_factor*portion
         factor = sell_factor
-
+        卖出金额 = round3(reaction*current_value)
     else:
         reaction = (float_value/current_value-1)*buy_factor*cash
         factor = buy_factor
 
-    action = '买入金额' if(reaction > 0) else '卖出份额'
-    print('相较{time}的操作:{action}'.format(
-        time=time, action=action),  reaction, "系数:", factor)
+    action = '买入金额：' + round3(reaction) if(reaction > 0) else '卖出份额' + \
+        str(reaction) + '卖出金额：' + 卖出金额
+
+    print('相较{time}的操作:{action} 系数: {factor}'.format(
+        time=time, action=action, factor=factor))
+
     if idx == 0:
         jsonData[jsonIdx]['action'] = reaction
         if 'sell_value' in jsonData[jsonIdx].keys():
             del jsonData[jsonIdx]['sell_value']
         if reaction < 0:
-            jsonData[jsonIdx]['sell_value'] = reaction*current_value
+            jsonData[jsonIdx]['sell_value'] = 卖出金额
+
 with open("./store.json", "w", encoding='utf-8') as dump_f:
     json.dump(jsonData, dump_f, ensure_ascii=False)
