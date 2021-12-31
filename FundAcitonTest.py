@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import numpy as np
 
-jsonIdx = 0
+jsonIdx = 22
 jsonData = []
 fileJson = {}
 with open('./store.json', "rb") as file:
@@ -144,5 +144,5 @@ for idx, i in enumerate(value):
             del jsonData[jsonIdx]['sell_value']
         if reaction < 0:
             jsonData[jsonIdx]['sell_value'] = reaction*current_value
-with open("./store.json", "w",encoding='utf-8') as dump_f:
-    json.dump(jsonData, dump_f,ensure_ascii=False)
+with open("./store.json", "w", encoding='utf-8') as dump_f:
+    json.dump(jsonData, dump_f, ensure_ascii=False)
