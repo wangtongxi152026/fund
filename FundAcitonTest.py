@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import numpy as np
 
-jsonIdx = 5
+jsonIdx = 21
 jsonData = []
 fileJson = {}
 with open('./store.json', "rb") as file:
@@ -104,6 +104,7 @@ for idx, i in enumerate(value):
     time = [date1, date2][idx].split(' ')[0]
     buy_factor = 5.5
     sell_factor = 5
+    卖出金额 = 0
     if index > 11 and lastset_trend < 0:
         buy_factor = 10
         sell_factor = 5
